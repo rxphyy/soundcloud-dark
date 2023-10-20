@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "SoundCloud CSS Modifier",
+    "version": "1.0",
+    "description": "Modify the CSS of a single element on SoundCloud",
+    "permissions": [
+      "activeTab", "tabs"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://soundcloud.com/*"],
+        "css": ["likes.css"],
+        "run_at": "document_end"
+      }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+        {
+          "resources": [ "play.png" ],
+          "matches": [ "file://images/*" ]
+        }
+      ]
+}

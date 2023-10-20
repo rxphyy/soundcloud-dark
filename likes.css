@@ -1,0 +1,213 @@
+#app {
+    background-color: #171716;
+}
+
+html {
+    background-color: #171716 !important;
+}
+
+body {
+    background-color: #171716 !important;
+    color: #bdbdbd !important;
+}
+
+.sc-artwork {
+    border-radius: 4%;
+}
+
+a.sc-link-dark {
+    color: rgb(137 43 237) !important;
+    font-weight: bold;
+}
+
+a.sc-link-dark:hover {
+    color: rgb(99, 57, 141) !important;
+}
+
+a.sc-link-light {
+    color: #FFFF !important;
+}
+
+a.sc-link-light:hover {
+    color: #bdbdbd !important;
+}
+
+.playControls__inner, .playControls__bg {
+    background-color: #383838 !important;
+    border-top: 2px solid #734ecc !important;
+}
+
+.playbackSoundBadge__titleLink {
+    color: #b1b1b1 !important;
+}
+
+.playbackSoundBadge__titleLink:hover {
+    color: #808080 !important;
+}
+
+.playControl {
+    color: #FFFF !important;
+}
+
+.g-tabs-link.active {
+    color: rgb(137 43 237) !important;
+}
+
+.g-tabs-link {
+    color: #a8a8a8  !important;
+    border-bottom: none !important;
+}
+
+
+
+.header__link.header__proUpsell_side_by_side_experience,
+.header__link.header__goUpsell_side_by_side_experience {
+    color: rgb(159, 84, 240) !important;
+}
+
+.playbackTimeline__duration {
+    color: #bdbdbd !important;
+}
+
+.playbackTimeline__timePassed {
+    color: #8445cc !important;
+}
+
+.sc-button-play {
+    background-color: #734ecc !important;
+}
+
+
+.truncatedAudioInfo__wrapper:after {
+    background: linear-gradient(hsla(0,0%,100%,0),hsla(0, 0%, 100%, 0) 90%,#000000) !important;
+}
+
+
+.sc-button-follow {
+    background-color: #8445cc !important;
+    border: none !important;
+}
+
+.sc-button-dropdown {
+    border: 1px solid #8445cc !important;
+    background-color: transparent !important;
+    color: #a45ef5 !important;
+}
+
+.sc-button-dropdown::after {
+    border-right: 1px solid #a45ef5 !important;
+    border-bottom: 1px solid #a45ef5 !important;
+}
+
+.linkMenu {
+    background-color: #383838 !important;
+}
+
+.sc-input, .commentForm__input {
+    background-color: #383838 !important;
+    color: #cacaca !important;
+    border: none !important;
+}
+
+.commentForm__wrapper {
+    background-color: #424242 !important;
+}
+
+.listenEngagement {
+    border: none !important;
+}
+
+.tileGallery__sliderButton:after {
+    border-right: 2px solid #a45ef5 !important;
+    border-top: 2px solid #a45ef5 !important;
+}
+
+.tileGallery__sliderButton:hover, .tileGallery__sliderPeek > .tileGallery__sliderButton {
+    border: none !important;
+}
+
+.sc-label-private {
+    background-color: #424242 !important;
+    border: 1px solid #734ecc !important;
+}
+
+.sc-tag {
+    background-color: #808080 !important;
+}
+
+.sound__soundActions {
+    background-color: transparent !important;
+}
+
+.sc-button-secondary {
+    background-color: #363636 !important;
+    color: #cacaca !important;
+    border: 1px solid #734ecc !important;
+}
+
+.headerMenu {
+    background-color: #424242 !important;
+}
+
+.headerMenu__link {
+    color: #FFFF !important;
+}
+
+.headerMenu__link:hover {
+    background-color: #707070 !important;
+}
+
+.dropdownContent__container {
+    background-color: #424242 !important;
+}
+
+.conversation__actions {
+    background-color: #171716 !important;
+}
+
+.conversationMessage__body {
+    color: #cacaca !important;
+}
+
+.conversationParticipant {
+    font-weight: bolder !important;
+}
+
+.composeMessage__bottomWrapper {
+    border: none !important;
+}
+
+.sc-button-primary {
+    background-color: #734ecc !important;
+    border: none !important;
+    color: #FFFF !important;
+}
+
+.inboxItem.active {
+    background-color: #424242 !important;
+}
+
+.inboxItem:hover {
+    background-color: #424242 !important;
+}
+
+.conversationMessages__item {
+    border-bottom: 1px solid #707070 !important;
+}
+
+.conversationMessages__item:last-child {
+    border-bottom: none  !important;
+  }
+
+  .modal.modalWhiteout {
+    background-color: #36363677 !important;
+  }
+
+.newMessageForm, .modal__modal {
+    background-color: #424242 !important;
+    color: #FFFF !important;
+}
+
+.input {
+    background-color: transparent !important;
+}
