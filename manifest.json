@@ -1,11 +1,14 @@
 {
     "manifest_version": 3,
-    "name": "SoundCloud CSS Modifier",
+    "name": "SoundPurple",
     "version": "1.0",
-    "description": "Modify the CSS of a single element on SoundCloud",
+    "description": "Change the SoundCloud web UI to a dark mode with purple accents.",
     "permissions": [
       "activeTab", "tabs"
     ],
+    "icons": {
+      "48": "images/48.png"
+    },
     "action": {
       "default_popup": "popup.html"
     },
@@ -21,8 +24,20 @@
     },
     "web_accessible_resources": [
         {
-          "resources": [ "play.png" ],
-          "matches": [ "file://images/*" ]
+          "resources": [ "images/play.png" ],
+          "matches": [ "<all_urls>" ]
+        },
+        {
+          "resources": [ "images/low-volume.svg" ],
+          "matches": [ "<all_urls>" ]
+        },
+        {
+          "resources": [ "images/no-audio.svg" ],
+          "matches": [ "<all_urls>" ]
+        },
+        {
+          "resources": [ "images/volume.svg" ],
+          "matches": [ "<all_urls>" ]
         }
       ]
 }

@@ -88,6 +88,10 @@ a.sc-link-light:hover {
     border: none !important;
 }
 
+.sc-button-follow::before {
+    filter: brightness(0) invert(0.9) !important;
+}
+
 .sc-button-dropdown {
     border: 1px solid #8445cc !important;
     background-color: transparent !important;
@@ -157,8 +161,12 @@ a.sc-link-light:hover {
     background-color: #707070 !important;
 }
 
+.headerMenu__link::after {
+    filter: invert(1) !important;
+}
+
 .dropdownContent__container {
-    background-color: #424242 !important;
+    background-color: #2a2a2a !important;
 }
 
 .conversation__actions {
@@ -210,4 +218,235 @@ a.sc-link-light:hover {
 
 .input {
     background-color: transparent !important;
+}
+
+.l-inner-fullwidth {
+    background-color: #282828 !important;
+}
+
+.newItemBadge.newItems__some {
+    background-color: #734ecc !important;
+}
+
+.volume__button {
+    filter: brightness(0) invert(1) !important;
+    background-size: 24px 24px !important;
+    background-repeat: no-repeat;
+    height: 24px !important;
+}
+
+.volume__sliderWrapper {
+    opacity: 0 !important;
+}
+
+.volume.expanded > .volume__sliderWrapper {
+    opacity: 100 !important;
+    background-color: #383838 !important;
+    border: 1px solid #707070 !important;
+}
+
+.volume__sliderHandle {
+    background-color: #a45ef5 !important;
+}
+
+.volume__sliderProgress {
+    background-color: #734ecc !important;
+}
+
+.volume__sliderWrapper::after {
+    border-color: transparent transparent #707070 #707070 !important;
+}
+
+.volume__sliderWrapper::before {
+    border-color: transparent transparent #707070 #707070 !important;
+}
+
+.sc-ministats-small.sc-ministats-sounds:before {
+    filter: brightness(0) invert(1) !important;
+}
+
+.playControls__control {
+    filter: brightness(0) invert(1) !important;
+}
+
+.sc-status-icon {
+    filter: hue-rotate(245deg) !important;
+}
+
+.artistShortcutTile__username {
+    color: #cacaca !important;
+}
+
+.sc-button-secondary::before {
+    filter: brightness(0) invert(0.7) !important;
+}
+
+.soundActions__purchaseLink {
+    color: #cacaca !important;
+}
+
+.streamHTUpsell {
+    background-color: #383838 !important;
+}
+
+.soundBadge__additional {
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0) 90%, #000000) !important;
+}
+
+.localeSelector_language {
+    color: white !important;
+}
+
+.readMoreTile__countWrapper {
+    background-color: #363636 !important;
+}
+
+.readMoreTile__count {
+    color: white !important;
+}
+
+.sc-button-tertiary {
+    background-color: #363636 !important;
+    color: #FFF !important;
+    border: 1px solid #734ecc !important;
+}
+
+.commentForm__wrapper {
+    border-radius: 4px !important;
+}
+
+.moreActions__button::before {
+    filter: brightness(0) invert(0.7) !important;
+}
+
+.gritter-top {
+    background: #734ecc !important;
+    border: 1px solid white !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABh0lEQVRIx2NgGAWjgFbgjDan3AkdbnGaWnJcly/6cqzbgQuBFrvO6PAr08SSY9p8kS9Xz7/1HwT+/v37aHJLBtUtOaHHH/Jy5Zwb/5HArw8f0qjrE13egGeLpl5HtgToo7tAkp96lujw+jydN/EqmiUPgaQsXo37FRg4gBHae0KXf9kxXR57AnHi8WRm1yU0S54ASQWCLrwYbm3x7d6td3++fv75oKvyzAltAUfsqYvf5dGUlotAQ/8hWfIcSBKX0n48f+IN1/jv378H3dVn0X12XIfH4eGEhnNolrwEkupEhzlQsRBQ0xtkyx52VZ4+osVrC05d2rw2D7urz4DEkSwBqdciOYKBmoz+/f37EW7X37//7reXnjqmw598r63kFIiPJPcOSOmRnZqAms2AhnxGcvXf11tW3AXRSJZ8AFKGFCddoCFWQMO+/scCoI4wpVo+ARpmD4yPb6i2/PsCJC2pXrwADXUGGv4DagnIh7Y0K5WBhnsA8XsgdqJ5PQO0RGC0th3eAACf46PZ48ONQwAAAABJRU5ErkJggg==), linear-gradient(rgb(174, 0, 255), #731cbb 40%, rgb(80, 12, 175)) !important;
+    background-size: 100%, auto !important;
+    background-repeat: no-repeat !important;
+}
+
+.gritter-item-wrapper.big-success {
+    background-color: #363636 !important;
+    color: #cacaca !important;
+    border: 1px solid white !important;
+}
+
+.tabs__tabs, .g-modal-section {
+    background-color: #383838 !important;
+}
+
+.shareLink__field, .shareLink__fromField {
+    background-color: #282828 !important;
+}
+
+.playbackTimeline__progressHandle {
+    background-color: #a45ef5 !important;
+    border: 1px solid #734ecc !important;
+}
+
+.playbackTimeline__progressBar {
+    background-color: #731cbb !important;
+}
+
+.sceneLayer {
+    filter: hue-rotate(245deg) !important;
+}
+
+.dialog {
+    background-color: #282828 !important;
+}
+
+.sc-text-h5 {
+    color: #FFF !important;
+}
+
+.sc-text-captions {
+    color: #b1b1b1 !important;
+}
+
+.notificationBadge__username {
+    color: #FFF !important;
+}
+
+.sc-text-secondary {
+    color: #cacaca !important;
+}
+
+.inboxItem.active {
+    border-left-color: #734ecc !important;
+}
+
+.sc-button-cta {
+    background-color: #734ecc !important;
+    border: 1px solid #731cbb !important;
+}
+
+.sidebarInfoBox__body {
+    background-color: #2a2a2a !important;
+}
+
+.sc-type-h2 {
+    color: #FFF !important;
+}
+
+.sc-text-captions {
+    color: #363636 !important;
+}
+
+.currentPlan__planContainer, .currentPlan__planUpsell,
+.consumerSubscription__upsell, .g-upsell-container {
+    background-color: #383838 !important;
+    color: #cacaca !important;
+}
+
+.sc-toggle:before {
+    background: #734ecc !important;
+}
+
+.select__select {
+    background-color: #383838 !important;
+    color: #cacaca !important;
+}
+
+.hintButton {
+    filter: invert(1) !important;
+}
+
+.quotaMeterWrapper, .uploadMain__chooserContainer,
+.uploadMain__foot {
+    background-color: #363636 !important;
+}
+
+.quotaMeter__percentage, .quotaMeter__upsellText,
+.sc-link-verylight {
+    color: #FFFF !important;
+}
+
+.quotaMeter__dropdownButton::after {
+    filter: invert(1) !important;
+}
+
+
+
+#onetrust-banner-sdk {
+    background-color: #363636 !important;
+}
+
+#onetrust-policy-text, #onetrust-policy-title,
+.ot-dpd-desc, .ot-dpd-title, .ot-cat-header,
+#ot-category-title, .ot-always-active, .ot-category-desc,
+.ot-subgrp-desc, .ot-subgrp h5, .ot-vlst-cntr button, .ot-vlst-cntr a  {
+    color: #FFFF !important;
+}
+
+.ot-pc-header, #ot-pc-content, #ot-pc-desc, #ot-pc-title,
+.ot-acc-txt, .ot-pc-footer {
+    color: #FFFF !important;
+    background-color: #282828 !important;
+}
+
+.ot-plus-minus::before {
+    filter: invert(1) !important;
 }
