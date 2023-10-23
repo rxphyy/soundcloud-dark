@@ -356,6 +356,7 @@ a.sc-link-light:hover {
 
 .dialog {
     background-color: #282828 !important;
+    color: #cacaca !important;
 }
 
 .sc-text-h5 {
@@ -449,4 +450,37 @@ a.sc-link-light:hover {
 
 .ot-plus-minus::before {
     filter: invert(1) !important;
+}
+
+.playControls__castControl {
+    filter: invert(1) !important;
+}
+
+.playableTile__actionButton.sc-button-like  {
+    filter: hue-rotate(245deg) !important;
+}
+
+.searchTitle {
+    background-color: #181414 !important;
+}
+
+.searchOptions__navigationLink {
+    color: #FFF !important;
+    text-shadow: none !important;
+}
+
+.searchOptions__navigationItem.active {
+    background: #731cbb !important;
+}
+
+.searchOptions__navigationItem.active::after {
+    border-left-color: #731cbb !important;
+}
+
+.dropbar__content {
+    background-color: #363636 !important;
+}
+
+.dropbar__content {
+    background: #383838 !important;
 }
