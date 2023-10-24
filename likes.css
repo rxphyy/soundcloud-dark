@@ -393,7 +393,7 @@ a.sc-link-light:hover {
 }
 
 .sc-text-captions {
-    color: #363636 !important;
+    color: #cacaca !important;
 }
 
 .currentPlan__planContainer, .currentPlan__planUpsell,
@@ -483,4 +483,80 @@ a.sc-link-light:hover {
 
 .dropbar__content {
     background: #383838 !important;
+}
+
+.compactTrackListItem__trackTitle {
+    color: #cacaca !important;
+}
+
+.compactTrackListItem.clickToPlay:hover, .compactTrackListItem.active {
+    background-color: #363636 !important;
+}
+
+.compactTrackListItem.active > .compactTrackListItem__additional {
+    background: none !important;
+}
+
+.compactTrackListItem.clickToPlay:hover > .compactTrackListItem__additional {
+    background: none !important;
+}
+
+.compactTrackListItem.active .compactTrackListItem__plays {
+    color: #734ecc !important;
+}
+
+.compactTrackList__moreLink:hover, .compactTrackList__moreLink:focus {
+    background-color: #363636 !important;
+}
+
+.sc-background-light {
+    background-color: #424242 !important;
+}
+
+.tagInput__input {
+    background-color: #282828 !important;
+}
+
+.trackItem:hover, .trackItem.active {
+    background-color: #363636 !important;
+}
+
+.trackItem:hover > .trackItem__additional {
+    background: #383838 !important;
+}
+
+.trackItem.active > .trackItem__additional {
+    background: #383838 !important;   
+}
+
+.audibleEditForm__form, .localeSelectorContent {
+    background-color: #282828 !important;
+}
+
+button[aria-label="Selected language"] {
+    color: #cacaca !important;
+}
+
+.truncatedUserDescription__wrapper::after {
+    background: linear-gradient(hsla(0,0%,100%,0),#262626) !important;
+}
+
+.tokenInput__token {
+    background: #262626 !important;
+}
+
+.composeMessage__searchViewWrapper::after {
+    background: #363636 !important;
+}
+
+.userAudibleSearchResults__item {
+    background-color: #383838 !important;
+}
+
+.userAudibleSearchResultItem__title {
+    color: #cacaca !important;
+}
+
+.userAudibleSearchResults__item.selected {
+    background-color: #2a2a2a !important;
 }

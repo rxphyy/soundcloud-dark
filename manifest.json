@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "SoundPurple",
+    "name": "SoundCloud Dark",
     "version": "1.0",
     "description": "Change the SoundCloud web UI to a dark mode with purple accents.",
     "permissions": [
