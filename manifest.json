@@ -3,9 +3,6 @@
     "name": "SoundCloud Dark",
     "version": "1.0",
     "description": "Change the SoundCloud web UI to a dark mode with purple accents.",
-    "permissions": [
-      "activeTab"
-    ],
     "icons": {
       "48": "images/48.png"
     },
