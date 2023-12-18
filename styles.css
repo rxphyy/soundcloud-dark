@@ -1,14 +1,18 @@
+input::-webkit-color-swatch {
+    border: transparent;
+}
+
 #app {
-    background-color: #171716;
+    background-color: var(--dark);
 }
 
 html {
-    background-color: #171716 !important;
+    background-color: var(--dark) !important;
 }
 
 body {
-    background-color: #171716 !important;
-    color: #bdbdbd !important;
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
 }
 
 .sc-artwork {
@@ -16,45 +20,45 @@ body {
 }
 
 a.sc-link-dark {
-    color: rgb(137 43 237) !important;
+    color: var(--accent) !important;
     font-weight: bold;
 }
 
 a.sc-link-dark:hover {
-    color: rgb(99, 57, 141) !important;
+    color: var(--accent-tint) !important;
 }
 
 a.sc-link-light {
-    color: #FFFF !important;
+    color: var(--light-secondary) !important;
 }
 
 a.sc-link-light:hover {
-    color: #bdbdbd !important;
+    color: var(--light) !important;
 }
 
 .playControls__inner, .playControls__bg {
-    background-color: #383838 !important;
-    border-top: 2px solid #734ecc !important;
+    background-color: var(--dark-secondary) !important;
+    border-top: 2px solid var(--accent-secondary) !important;
 }
 
 .playbackSoundBadge__titleLink {
-    color: #b1b1b1 !important;
+    color: var(--light) !important;
 }
 
 .playbackSoundBadge__titleLink:hover {
-    color: #808080 !important;
+    color: var(--light) !important;
 }
 
 .playControl {
-    color: #FFFF !important;
+    color: var(--light-secondary) !important;
 }
 
 .g-tabs-link.active {
-    color: rgb(137 43 237) !important;
+    color: var(--accent-secondary) !important;
 }
 
 .g-tabs-link {
-    color: #a8a8a8  !important;
+    color: var(--light)  !important;
     border-bottom: none !important;
 }
 
@@ -62,19 +66,19 @@ a.sc-link-light:hover {
 
 .header__link.header__proUpsell_side_by_side_experience,
 .header__link.header__goUpsell_side_by_side_experience {
-    color: rgb(159, 84, 240) !important;
+    color: var(--accent-secondary) !important;
 }
 
 .playbackTimeline__duration {
-    color: #bdbdbd !important;
+    color: var(--light) !important;
 }
 
 .playbackTimeline__timePassed {
-    color: #8445cc !important;
+    color: var(--accent) !important;
 }
 
 .sc-button-play {
-    background-color: #734ecc !important;
+    background-color: var(--accent-tint) !important;
 }
 
 
@@ -84,7 +88,7 @@ a.sc-link-light:hover {
 
 
 .sc-button-follow {
-    background-color: #8445cc !important;
+    background-color: var(--accent) !important;
     border: none !important;
 }
 
@@ -93,28 +97,28 @@ a.sc-link-light:hover {
 }
 
 .sc-button-dropdown {
-    border: 1px solid #8445cc !important;
+    border: 1px solid var(--accent) !important;
     background-color: transparent !important;
-    color: #a45ef5 !important;
+    color: var(--accent-secondary) !important;
 }
 
 .sc-button-dropdown::after {
-    border-right: 1px solid #a45ef5 !important;
-    border-bottom: 1px solid #a45ef5 !important;
+    border-right: 1px solid var(--accent-secondary) !important;
+    border-bottom: 1px solid var(--accent-secondary) !important;
 }
 
 .linkMenu {
-    background-color: #383838 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .sc-input, .commentForm__input {
-    background-color: #383838 !important;
-    color: #cacaca !important;
+    background-color: var(--dark-secondary) !important;
+    color: var(--light) !important;
     border: none !important;
 }
 
 .commentForm__wrapper {
-    background-color: #424242 !important;
+    background-color: var(--dark) !important;
 }
 
 .listenEngagement {
@@ -122,8 +126,8 @@ a.sc-link-light:hover {
 }
 
 .tileGallery__sliderButton:after {
-    border-right: 2px solid #a45ef5 !important;
-    border-top: 2px solid #a45ef5 !important;
+    border-right: 2px solid var(--accent-secondary) !important;
+    border-top: 2px solid var(--accent-secondary) !important;
 }
 
 .tileGallery__sliderButton:hover, .tileGallery__sliderPeek > .tileGallery__sliderButton {
@@ -131,12 +135,12 @@ a.sc-link-light:hover {
 }
 
 .sc-label-private {
-    background-color: #424242 !important;
-    border: 1px solid #734ecc !important;
+    background-color: var(--dark) !important;
+    border: 1px solid var(--accent) !important;
 }
 
 .sc-tag {
-    background-color: #808080 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .sound__soundActions {
@@ -144,21 +148,21 @@ a.sc-link-light:hover {
 }
 
 .sc-button-secondary {
-    background-color: #363636 !important;
-    color: #cacaca !important;
-    border: 1px solid #734ecc !important;
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
+    border: 1px solid var(--accent) !important;
 }
 
 .headerMenu {
-    background-color: #424242 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .headerMenu__link {
-    color: #FFFF !important;
+    color: var(--light-secondary) !important;
 }
 
 .headerMenu__link:hover {
-    background-color: #707070 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .headerMenu__link::after {
@@ -166,15 +170,15 @@ a.sc-link-light:hover {
 }
 
 .dropdownContent__container {
-    background-color: #2a2a2a !important;
+    background-color: var(--dark) !important;
 }
 
 .conversation__actions {
-    background-color: #171716 !important;
+    background-color: var(--dark) !important;
 }
 
 .conversationMessage__body {
-    color: #cacaca !important;
+    color: var(--light) !important;
 }
 
 .conversationParticipant {
@@ -186,21 +190,21 @@ a.sc-link-light:hover {
 }
 
 .sc-button-primary {
-    background-color: #734ecc !important;
+    background-color: var(--accent) !important;
     border: none !important;
-    color: #FFFF !important;
+    color: var(--light-secondary) !important;
 }
 
 .inboxItem.active {
-    background-color: #424242 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .inboxItem:hover {
-    background-color: #424242 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .conversationMessages__item {
-    border-bottom: 1px solid #707070 !important;
+    border-bottom: 1px solid var(--dark-secondary) !important;
 }
 
 .conversationMessages__item:last-child {
@@ -208,12 +212,12 @@ a.sc-link-light:hover {
   }
 
   .modal.modalWhiteout {
-    background-color: #36363677 !important;
+    background-color: var(--dark) !important;
   }
 
 .newMessageForm, .modal__modal {
-    background-color: #424242 !important;
-    color: #FFFF !important;
+    background-color: var(--dark-secondary) !important;
+    color: var(--light-secondary) !important;
 }
 
 .input {
@@ -221,11 +225,11 @@ a.sc-link-light:hover {
 }
 
 .l-inner-fullwidth {
-    background-color: #282828 !important;
+    background-color: var(--dark) !important;
 }
 
 .newItemBadge.newItems__some {
-    background-color: #734ecc !important;
+    background-color: var(--accent) !important;
 }
 
 .volume__button {
@@ -241,16 +245,16 @@ a.sc-link-light:hover {
 
 .volume.expanded > .volume__sliderWrapper {
     opacity: 100 !important;
-    background-color: #383838 !important;
-    border: 1px solid #707070 !important;
+    background-color: var(--dark) !important;
+    border: 1px solid var(--dark-secondary) !important;
 }
 
 .volume__sliderHandle {
-    background-color: #a45ef5 !important;
+    background-color: var(--accent-secondary) !important;
 }
 
 .volume__sliderProgress {
-    background-color: #734ecc !important;
+    background-color: var(--accent) !important;
 }
 
 .volume__sliderWrapper::after {
@@ -274,7 +278,7 @@ a.sc-link-light:hover {
 }
 
 .artistShortcutTile__username {
-    color: #cacaca !important;
+    color: var(--light) !important;
 }
 
 .sc-button-secondary::before {
@@ -282,11 +286,11 @@ a.sc-link-light:hover {
 }
 
 .soundActions__purchaseLink {
-    color: #cacaca !important;
+    color: var(--light) !important;
 }
 
 .streamHTUpsell {
-    background-color: #383838 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .soundBadge__additional {
@@ -294,21 +298,21 @@ a.sc-link-light:hover {
 }
 
 .localeSelector_language {
-    color: white !important;
+    color: var(--light-secondary) !important;
 }
 
 .readMoreTile__countWrapper {
-    background-color: #363636 !important;
+    background-color: var(--dark) !important;
 }
 
 .readMoreTile__count {
-    color: white !important;
+    color: var(--light-secondary) !important;
 }
 
 .sc-button-tertiary {
-    background-color: #363636 !important;
-    color: #FFF !important;
-    border: 1px solid #734ecc !important;
+    background-color: var(--dark) !important;
+    color: var(--light-secondary) !important;
+    border: 1px solid var(--accent) !important;
 }
 
 .commentForm__wrapper {
@@ -320,34 +324,34 @@ a.sc-link-light:hover {
 }
 
 .gritter-top {
-    background: #734ecc !important;
-    border: 1px solid white !important;
+    background: var(--accent) !important;
+    border: 1px solid var(--light-secondary) !important;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAABh0lEQVRIx2NgGAWjgFbgjDan3AkdbnGaWnJcly/6cqzbgQuBFrvO6PAr08SSY9p8kS9Xz7/1HwT+/v37aHJLBtUtOaHHH/Jy5Zwb/5HArw8f0qjrE13egGeLpl5HtgToo7tAkp96lujw+jydN/EqmiUPgaQsXo37FRg4gBHae0KXf9kxXR57AnHi8WRm1yU0S54ASQWCLrwYbm3x7d6td3++fv75oKvyzAltAUfsqYvf5dGUlotAQ/8hWfIcSBKX0n48f+IN1/jv378H3dVn0X12XIfH4eGEhnNolrwEkupEhzlQsRBQ0xtkyx52VZ4+osVrC05d2rw2D7urz4DEkSwBqdciOYKBmoz+/f37EW7X37//7reXnjqmw598r63kFIiPJPcOSOmRnZqAms2AhnxGcvXf11tW3AXRSJZ8AFKGFCddoCFWQMO+/scCoI4wpVo+ARpmD4yPb6i2/PsCJC2pXrwADXUGGv4DagnIh7Y0K5WBhnsA8XsgdqJ5PQO0RGC0th3eAACf46PZ48ONQwAAAABJRU5ErkJggg==), linear-gradient(rgb(174, 0, 255), #731cbb 40%, rgb(80, 12, 175)) !important;
     background-size: 100%, auto !important;
     background-repeat: no-repeat !important;
 }
 
 .gritter-item-wrapper.big-success {
-    background-color: #363636 !important;
+    background-color: var(--dark) !important;
     color: #cacaca !important;
-    border: 1px solid white !important;
+    border: 1px solid var(--light-secondary) !important;
 }
 
 .tabs__tabs, .g-modal-section {
-    background-color: #383838 !important;
+    background-color: var(--dark) !important;
 }
 
 .shareLink__field, .shareLink__fromField {
-    background-color: #282828 !important;
+    background-color: var(--dark) !important;
 }
 
 .playbackTimeline__progressHandle {
-    background-color: #a45ef5 !important;
-    border: 1px solid #734ecc !important;
+    background-color: var(--accent-secondary) !important;
+    border: 1px solid var(--accent) !important;
 }
 
 .playbackTimeline__progressBar {
-    background-color: #731cbb !important;
+    background-color: var(--accent-tint) !important;
 }
 
 .sceneLayer {
@@ -355,60 +359,60 @@ a.sc-link-light:hover {
 }
 
 .dialog {
-    background-color: #282828 !important;
-    color: #cacaca !important;
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
 }
 
 .sc-text-h5 {
-    color: #FFF !important;
+    color: var(--light-secondary) !important;
 }
 
 .sc-text-captions {
-    color: #b1b1b1 !important;
+    color: var(--light) !important;
 }
 
 .notificationBadge__username {
-    color: #FFF !important;
+    color: var(--light-secondary) !important;
 }
 
 .sc-text-secondary {
-    color: #cacaca !important;
+    color: var(--light-secondary) !important;
 }
 
 .inboxItem.active {
-    border-left-color: #734ecc !important;
+    border-left-color: var(--accent) !important;
 }
 
 .sc-button-cta {
-    background-color: #734ecc !important;
-    border: 1px solid #731cbb !important;
+    background-color: var(--accent) !important;
+    border: 1px solid var(--accent-secondary) !important;
 }
 
 .sidebarInfoBox__body {
-    background-color: #2a2a2a !important;
+    background-color: var(--dark) !important;
 }
 
 .sc-type-h2 {
-    color: #FFF !important;
+    color: var(--light-secondary) !important;
 }
 
 .sc-text-captions {
-    color: #cacaca !important;
+    color: var(--light) !important;
 }
 
 .currentPlan__planContainer, .currentPlan__planUpsell,
 .consumerSubscription__upsell, .g-upsell-container {
-    background-color: #383838 !important;
-    color: #cacaca !important;
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
 }
 
 .sc-toggle:before {
-    background: #734ecc !important;
+    background: var(--accent) !important;
 }
 
 .select__select {
-    background-color: #383838 !important;
-    color: #cacaca !important;
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
 }
 
 .hintButton {
@@ -417,12 +421,12 @@ a.sc-link-light:hover {
 
 .quotaMeterWrapper, .uploadMain__chooserContainer,
 .uploadMain__foot {
-    background-color: #363636 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .quotaMeter__percentage, .quotaMeter__upsellText,
 .sc-link-verylight {
-    color: #FFFF !important;
+    color: var(--light) !important;
 }
 
 .quotaMeter__dropdownButton::after {
@@ -432,20 +436,20 @@ a.sc-link-light:hover {
 
 
 #onetrust-banner-sdk {
-    background-color: #363636 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 #onetrust-policy-text, #onetrust-policy-title,
 .ot-dpd-desc, .ot-dpd-title, .ot-cat-header,
 #ot-category-title, .ot-always-active, .ot-category-desc,
 .ot-subgrp-desc, .ot-subgrp h5, .ot-vlst-cntr button, .ot-vlst-cntr a  {
-    color: #FFFF !important;
+    color: var(--light-secondary) !important;
 }
 
 .ot-pc-header, #ot-pc-content, #ot-pc-desc, #ot-pc-title,
 .ot-acc-txt, .ot-pc-footer {
-    color: #FFFF !important;
-    background-color: #282828 !important;
+    color: var(--light-secondary) !important;
+    background-color: var(--dark) !important;
 }
 
 .ot-plus-minus::before {
@@ -461,36 +465,36 @@ a.sc-link-light:hover {
 }
 
 .searchTitle {
-    background-color: #181414 !important;
+    background-color: var(--dark) !important;
 }
 
 .searchOptions__navigationLink {
-    color: #FFF !important;
+    color: var(--light-secondary) !important;
     text-shadow: none !important;
 }
 
 .searchOptions__navigationItem.active {
-    background: #731cbb !important;
+    background: var(--accent) !important;
 }
 
 .searchOptions__navigationItem.active::after {
-    border-left-color: #731cbb !important;
+    border-left-color: var(--accent-tint) !important;
 }
 
 .dropbar__content {
-    background-color: #363636 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .dropbar__content {
-    background: #383838 !important;
+    background: var(--dark-secondary) !important;
 }
 
 .compactTrackListItem__trackTitle {
-    color: #cacaca !important;
+    color: var(--light) !important;
 }
 
 .compactTrackListItem.clickToPlay:hover, .compactTrackListItem.active {
-    background-color: #363636 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .compactTrackListItem.active > .compactTrackListItem__additional {
@@ -502,39 +506,39 @@ a.sc-link-light:hover {
 }
 
 .compactTrackListItem.active .compactTrackListItem__plays {
-    color: #734ecc !important;
+    color: var(--accent) !important;
 }
 
 .compactTrackList__moreLink:hover, .compactTrackList__moreLink:focus {
-    background-color: #363636 !important;
+    background-color: var(--dark) !important;
 }
 
 .sc-background-light {
-    background-color: #424242 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .tagInput__input {
-    background-color: #282828 !important;
+    background-color: var(--dark-secondary) !important;
 }
 
 .trackItem:hover, .trackItem.active {
-    background-color: #363636 !important;
+    background-color: var(--dark) !important;
 }
 
 .trackItem:hover > .trackItem__additional {
-    background: #383838 !important;
+    background: var(--dark) !important;
 }
 
 .trackItem.active > .trackItem__additional {
-    background: #383838 !important;   
+    background: var(--dark) !important;   
 }
 
 .audibleEditForm__form, .localeSelectorContent {
-    background-color: #282828 !important;
+    background-color: var(--dark) !important;
 }
 
 button[aria-label="Selected language"] {
-    color: #cacaca !important;
+    color: var(--light) !important;
 }
 
 .truncatedUserDescription__wrapper::after {
@@ -542,21 +546,21 @@ button[aria-label="Selected language"] {
 }
 
 .tokenInput__token {
-    background: #262626 !important;
+    background: var(--dark) !important;
 }
 
 .composeMessage__searchViewWrapper::after {
-    background: #363636 !important;
+    background: var(--dark) !important;
 }
 
 .userAudibleSearchResults__item {
-    background-color: #383838 !important;
+    background-color: var(--dark) !important;
 }
 
 .userAudibleSearchResultItem__title {
-    color: #cacaca !important;
+    color: var(--light) !important;
 }
 
 .userAudibleSearchResults__item.selected {
-    background-color: #2a2a2a !important;
+    background-color: var(--dark) !important;
 }

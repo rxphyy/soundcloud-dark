@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html style="border-radius: 10px;">
+<html style="border-radius: 10px; background-color: transparent;">
 <head>
   <title>SoundCloud Dark</title>
+  <script type="text/javascript" src="popup.js"></script>
 </head>
-  <body style="padding: 10px 50px 20px 50px; background-color: #383838; border-radius: 10px;">
+  <body style="padding: 10px 20px 20px 20px; background-color: #171716; border-radius: 10px;">
     <h1 style="text-align: center; font-size: 15px; color: #CACACA">SoundCloud Dark</h1>
-    <a href="https://github.com/rxphyy/soundcloud-dark/issues" target="_blank">
-      <button style="width: 200px; background-color: #0366d6; color: #ffffff; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 2px; cursor: pointer;">Report an issue</button>
-    </a>
-    <a href="https://github.com/rxphyy/soundcloud-dark" target="_blank">
-      <button style="width: 200px; background-color: #7b7c7c; color: #ffffff; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 2px; cursor: pointer;">View on GitHub</button>
-    </a>
+
+    <div style="display: flex; padding: 10px;">
+      <h2 style="margin: auto; color: #CACACA;">Color: </h2>
+      <input type="color" value="#892bed" id="color-picker" style="margin: auto; min-width: 150px; margin-right: 20px; margin-left: 10px;">
+      <input type="button" id="applyBtn" style="width: max-content; background-color: #812edf; color: #ffffff; border: none; padding: 5px 20px; text-align: center; text-decoration: none; transition: opacity 0.4s ease-in-out; opacity: 0; font-size: 16px; cursor: pointer;" value="Apply" />
+    </div>
+
+    <div style="display: flex;">
+      <a href="https://github.com/rxphyy/soundcloud-dark/issues" target="_blank">
+        <button style="width: max-content; background-color: #812edf; color: #ffffff; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 2px; cursor: pointer;">Report an issue</button>
+      </a>
+      <a href="https://github.com/rxphyy/soundcloud-dark" target="_blank">
+        <button style="width: max-content; background-color: #7b7c7c; color: #ffffff; border: none; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 10px 2px; cursor: pointer;">View on GitHub</button>
+      </a>
+    </div>
   </body>
 </html>
