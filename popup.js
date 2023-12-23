@@ -4,15 +4,6 @@ document.addEventListener('DOMContentLoaded', async function () {
 
     var initialColor = await fetchAccent();
     colorInput.value = initialColor;
-
-    // Add a change event listener to the color input
-    colorInput.addEventListener('input', function () {
-        if (colorInput.value !== initialColor) {
-            fadeIn(applyButton);
-        } else {
-            fadeOut(applyButton);
-        }
-    });
   
     // Add a click event listener to the button
     applyButton.addEventListener('click', async function () {
@@ -110,17 +101,11 @@ document.addEventListener('DOMContentLoaded', async function () {
         // Trigger a reflow before changing opacity to ensure transition occurs
         element.offsetHeight;
 
-        element.style.opacity = 1; // Set opacity to 1 for a fading effect
     }
 
     // Function to fade out an element
     function fadeOut(element) {
-        element.style.opacity = 0; // Set opacity to 0 for a fading effect
-
-        // After the transition, set display to none
-        setTimeout(function() {
-            element.style.display = "none";
-        }, 500); // Adjust the duration to match the transition duration
+        element.style.display = "none"; // Set opacity to 0 for a fading effect
     }
 
     async function fetchAccent() {
@@ -142,4 +127,3 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     }
   });
-  
