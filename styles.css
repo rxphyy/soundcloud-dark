@@ -282,6 +282,7 @@ a.sc-link-light:hover {
 }
 
 .sc-button-secondary::before {
+    filter: hue-rotate(var(--accent)) !important;
     filter: brightness(0) invert(0.7) !important;
 }
 
@@ -563,4 +564,90 @@ button[aria-label="Selected language"] {
 
 .userAudibleSearchResults__item.selected {
     background-color: var(--dark) !important;
+}
+
+.commentItem__usernameLink {
+    color: var(--light-secondary) !important;
+}
+
+.commentItem__body > span{
+    color: var(--light) !important;
+}
+
+.commentItem__timestamp {
+    color: var(--light) !important;
+}
+
+.commentItem__timestampLink {
+    background-color: var(--dark-secondary) !important;
+    color: var(--accent-secondary) !important;
+}
+
+.commentItem__controls > a {
+    color: var(--light) !important;
+}
+
+.g-link-user {
+    color: var(--accent-secondary) !important;
+}
+
+.uiEvoButton {
+    background-color: transparent !important;
+}
+
+.uiEvoButton > svg > path {
+    fill: var(--accent) !important;
+}
+
+.sc-button-more { 
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
+    border: 1px solid var(--accent) !important;
+}
+
+.sc-button-more::before {
+    filter: brightness(0) invert(0.9) !important;
+}
+
+.playbackSoundBadge__showQueue {
+    background-color: var(--dark) !important;
+    color: var(--light) !important;
+    border: 1px solid var(--accent) !important;
+}
+
+.playbackSoundBadge__showQueue > svg {
+    filter: brightness(0) invert(0.7) !important;
+}
+
+.repostOverlay__container {
+    background-color: var(--dark-secondary) !important;
+}
+
+.repostOverlay__formInput {
+    background-color: var(--dark) !important;
+}
+
+.repostOverlay__formButtonDelete {
+    color: var(--accent-secondary) !important;
+}
+
+.repostOverlay__youReposted, .repostOverlay__messageRepostIcon::before {
+    color: var(--accent-secondary) !important;
+}
+
+.repostOverlay__messageRepostIcon::before {
+    filter: brightness(0) invert(0.7) !important;
+}
+
+.shareLink__fromField {
+    background-color: var(--dark-secondary) !important;
+}
+
+.tokenInput__input, #formControl_2023 {
+    background-color: var(--dark) !important;
+}
+
+.sc-button-selected::before {
+    filter: drop-shadow(0px 1000px 0px var(--accent) ) !important;
+    transform: translateY(-1000px) !important;
 }
