@@ -12,6 +12,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
       "accent": "#8C31ED",
       "accent-secondary": "#9F54F0",
       "accent-tint": "#590FA9",
+      "accent-hue-rotate": "245deg",
 
       "dark": "#171716",
       "dark-secondary": "#282828",

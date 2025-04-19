@@ -69,6 +69,10 @@ a.sc-link-light:hover {
     color: var(--accent-secondary) !important;
 }
 
+body:not(.sc-classic) .header .creatorSubscriptionsButton.header__button {
+    border-color: var(--accent) !important;
+}
+
 .playbackTimeline__duration {
     color: var(--light) !important;
 }
@@ -233,7 +237,7 @@ a.sc-link-light:hover {
 }
 
 .volume__button {
-    filter: brightness(0) invert(1) !important;
+    /*filter: brightness(0) invert(1) !important;*/
     background-size: 24px 24px !important;
     background-repeat: no-repeat;
     height: 24px !important;
@@ -269,10 +273,11 @@ a.sc-link-light:hover {
     filter: brightness(0) invert(1) !important;
 }
 
+/*
 .playControls__control {
     filter: brightness(0) invert(1) !important;
 }
-
+*/
 .sc-status-icon {
     filter: hue-rotate(245deg) !important;
 }
@@ -356,7 +361,8 @@ a.sc-link-light:hover {
 }
 
 .sceneLayer {
-    filter: hue-rotate(245deg) !important;
+    /*filter: hue-rotate(245deg) !important;*/
+    filter: hue-rotate(var(--accent-hue-rotate)) !important;
 }
 
 .dialog {
@@ -457,9 +463,11 @@ a.sc-link-light:hover {
     filter: invert(1) !important;
 }
 
+/*
 .playControls__castControl {
     filter: invert(1) !important;
 }
+    */
 
 .playableTile__actionButton.sc-button-like  {
     filter: hue-rotate(245deg) !important;
@@ -621,11 +629,14 @@ button[aria-label="Selected language"] {
     background-color: var(--dark) !important;
     color: var(--light) !important;
     border: 1px solid var(--accent) !important;
+    width: auto !important;
+    height: auto !important;
 }
-
+/*
 .playbackSoundBadge__showQueue > svg {
     filter: brightness(0) invert(0.7) !important;
 }
+    */
 
 .repostOverlay__container {
     background-color: var(--dark-secondary) !important;
